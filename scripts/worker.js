@@ -1,5 +1,5 @@
 importScripts('imageManips.js');
-
+console.log("hejsen");
 this.onmessage = function(e) {
   var imageData = e.data.imageData;
   var type = e.data.type;
